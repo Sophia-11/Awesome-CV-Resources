@@ -332,3 +332,241 @@
 * Statistical Learning & Image Processing Genova University Research Unit Our research focuses on: (1) the study of mathematically sound methods for solving classification problems (2) the development of techniques for extracting visual information from images.
 * Laboratory for imagery, vision, and artificial intelligence a team of multidisplinary reserachers on the field of artificial vision, pattern recognition, image processing, learning algorithms, genetic computing, artificial intelligence, and perception
 
+
+
+<div class="clear" >  
+</div>
+<h1>计算机视觉算法资源汇总</h1>
+<div id="content">
+<h2>计算机视觉算法实现</h2>
+
+<h3>General Image Processing</h3>
+
+<dl> 
+<dt><a href="https://opencv.org/">OpenCV</a></dt> 
+<dd>(C++ code, BSD lic) Image manipulation, matrix manipulation, transforms</dd> 
+<dt><a href="http://torch3vision.idiap.ch/">Torch3Vision</a></dt> 
+<dd>(C/C++ code, BSD lic) Basic image processing, matrix manipulation and feature extraction algorithms: rotation, flip, photometric normalisations (Histogram Equalization, Multiscale Retinex, Self-Quotient Image or Gross-Brajovic), edge detection, 2D DCT, 2D FFT, 2D Gabor, PCA to do Eigen-Faces, LDA to do Fisher-Faces. Various metrics (Euclidean, Mahanalobis, ChiSquare, NormalizeCorrelation, TangentDistance, ...)</dd> 
+<dt><a href="http://imlab.sourceforge.net/">ImLab</a></dt>
+<dd>(C/C++ code, MIT lic) A Free Experimental System for Image Processing (loading, transforms, filters, histogram, morphology, ...)</dd> 
+<dt><a href="http://cimg.sourceforge.net">CIMG</a></dt> 
+<dd>(C/C++ code, GPL and LGPL lic) CImg Library is an open source C++ toolkit for image processing</dd> 
+<dt><a href="http://opensource.adobe.com/wiki/display/gil/Generic+Image+Library">Generic Image Library (GIL)</a> - <a href="http://www.boost.org/doc/libs/1_42_0/libs/gil/doc/index.html">boost integration</a></dt> 
+<dd>(C/C++ code, MIT lic) Adobe open source C++ Generic Image Library (GIL)</dd> 
+<dt><a href="http://www.simplecv.org">SimpleCV</a> a kinder, gentler machine vision library</dt> 
+<dd>(python code, MIT lic) SimpleCV is a Python interface to several powerful open source computer vision libraries in a single convenient package</dd> 
+<dt><a href="http://pointclouds.org">PCL</a>, The Point Cloud Library</dt> 
+<dd>(C/C++ code, BSD lic) The Point Cloud Library (or PCL) is a large scale, open project for point cloud processing. The PCL framework contains numerous state-of-the art algorithms including filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation.</dd> 
+<dt><a href="http://population.shinoe.org/">Population</a>, imaging library in C++ for processing, analysing, modelling and visualising</dt> 
+<dd>(C/C++ code, CeCill lic) Population is an open-source imaging library in C++ for processing, analysing, modelling and visualising including more than 200 algorithms designed by V. Tariel.</dd> 
+<dt><a href="http://sourceforge.net/projects/qcv/">qcv</a></dt> 
+<dd>(C/C++ code, LGPL 3) A computer vision framework based on Qt and OpenCV that provides an easy to use interface to display, analyze and
+run computer vision algorithms. The library is provided with multiple application examples including stereo, SURF, Sobel and and Hough transform.</dd> 
+<dt><a href="http://www.petercorke.com/vision">Machine Vision Toolbox</a></dt> 
+<dd>(MATLAB/C, LGPL lic) image processing, segmentation, blob/line/point features, multiview geometry, camera models, colorimetry.</dd> 
+<dt><a href="http://boofcv.org">BoofCV</a></dt>
+<dd>(Java code, Apache lic) BoofCV is an open source Java library for real-time computer vision and robotics applications. BoofCV is organized into several packages: image processing, features, geometric vision, calibration, visualize, and IO.</dd>
+<dt><a href="http://sourceforge.net/projects/simd/">Simd</a></dt>
+<dd>(C++ code, MIT lic) Simd is free open source library in C++. It includes high performance image processing algorithms. The algorithms are optimized with using of SIMD CPU extensions such as SSE2, SSSE3, SSE4.2 and AVX2.</dd>
+</dl>
+
+<dl>
+<dt>Free but not open source - <a href="http://accelereyes.com/arrayfire">ArrayFire (formely LibJacket)</a> is a matrix library for CUDA</dt> 
+<dd>(CUDA/C++, free lic)  ArrayFire offers hundreds of general matrix and image processing functions, all running on the GPU. The syntax is very Matlab-like, with the goal of offering easy porting of Matlab code to C++/ArrayFire.</dd> 
+</dl>
+
+<h3>Image Acquisition, Decoding & encoding </h3>
+
+<dl>
+<dt><a href="http://ffmpeg.org/">FFMPEG</a></dt> 
+<dd>(C/C++ code, LGPL or GPL lic) Record, convert and stream audio and video (lot of codec)</dd> 
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) PNG, JPEG,... images, avi video files, USB webcam,...</dd> 
+<dt><a href="http://torch3vision.idiap.ch/">Torch3Vision</a></dt> 
+<dd>(C/C++ code, BSD lic) Video file decoding/encoding (ffmpeg integration), image capture from a frame grabber or from USB, Sony pan/tilt/zoom camera control using VISCA interface</dd> 
+<dt><a href="http://wiki.videolan.org/Libvlc">lib VLC</a></dt> 
+<dd>(C/C++ code, GPL lic) Used by VLC player: record, convert and stream audio and video</dd> 
+<dt><a href="http://www.live555.com/liveMedia/">Live555</a></dt> 
+<dd>(C/C++ code, LGPL lic) RTSP streams</dd> 
+<dt><a href="http://www.imagemagick.org/script/index.php">ImageMagick</a></dt> 
+<dd>(C/C++ code, GPL lic) Loading & saving DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG, TIFF, and more</dd> 
+<dt><a href="http://openil.sourceforge.net/">DevIL</a></dt> 
+<dd>(C/C++ code, LGPL lic) Loading & saving various image format</dd> 
+<dt><a href="http://freeimage.sourceforge.net/">FreeImage</a></dt> 
+<dd>(C/C++ code, GPL & FPL lic) PNG, BMP, JPEG, TIFF loading</dd> 
+<dt><a href="http://videomanlib.sourceforge.net/">VideoMan</a></dt> 
+<dd>(C/C++ code, LGPL lic) VideoMan is trying to make the image capturing process from cameras, video files or image sequences easier.</dd> 
+</dl>
+
+<h3>Segmentation</h3>
+
+<dl>
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) Pyramid image segmentation</dd> 
+<dt><a href="http://research.microsoft.com/en-us/downloads/994e80f7-007b-4fed-a6e9-db5f4f32ccd1/default.aspx">Branch-and-Mincut</a></dt> 
+<dd>(C/C++ code, Microsoft Research Lic) Branch-and-Mincut Algorithm for Image Segmentation</dd>
+<dt><a href="http://cms.brookes.ac.uk/staff/Karteek/code/eff_mlabel_ver1.zip">Efficiently solving multi-label MRFs</a> (<a href="http://cms.brookes.ac.uk/staff/Karteek/code/README_EFF.TXT">Readme</a>)</dt> 
+<dd>(C/C++ code) Segmentation, object category labelling, stereo</dd> 
+</dl>
+
+<h3>Machine Learning</h3>
+
+<dl> 
+<dt><a href="http://www.torch.ch/">Torch</a></dt> 
+<dd>(C/C++ code, BSD lic) Gradient machines ( multi-layered perceptrons, radial basis functions, mixtures of experts, convolutional networks and even time-delay neural networks), Support vector machines, Ensemble models (bagging, adaboost), Non-parametric models (K-nearest-neighbors, Parzen regression and Parzen density estimator), distributions (Kmeans, Gaussian mixture models, hidden Markov models, input-output hidden Markov models, and Bayes classifier), speech recognition tools</dd> 
+</dl>
+
+<h3>Object Detection</h3>
+
+<dl> 
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) Viola-jones face detection (Haar features)</dd> 
+<dt><a href="http://torch3vision.idiap.ch/">Torch3Vision</a></dt> 
+<dd>(C/C++ code, BSD lic) MLP & cascade of Haar-like classifiers face detection</dd> 
+<dt><a href="http://www.vision.ee.ethz.ch/~gallju/projects/houghforest/index.html">Hough Forests</a></dt> 
+<dd>(C/C++ code, Microsoft Research Lic) Class-Specific Hough Forests for Object Detection</dd> 
+<dt><a href="http://sites.google.com/a/christoph-lampert.com/work/software">Efficient Subwindow Object Detection</a></dt> 
+<dd>(C/C++ code, Apache Lic) Christoph Lampert "Efficient Subwindow" algorithms for Object Detection</dd> 
+<dt><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></dt> 
+<dd>(C/C++ code, Custom Lic) Histograms of Oriented Gradients library for Object Detection</dd> 
+</dl>
+
+<h3>Re-identification</h3>
+
+<dl> 
+<dt><a href="https://github.com/santhosh-kumar/ContextualObjectSearchRetrieval">Context-Aware Object Search and Retrieval</a></dt> 
+<dd>(Matlab) A multi-camera object search and retrieval algorithm using matlab</dd> 
+</dl>
+
+<h3>Object Category Labelling</h3>
+
+<dl>
+<dt><a href="http://cms.brookes.ac.uk/staff/Karteek/code/eff_mlabel_ver1.zip">Efficiently solving multi-label MRFs</a> (<a href="http://cms.brookes.ac.uk/staff/Karteek/code/README_EFF.TXT">Readme</a>)</dt> 
+<dd>(C/C++ code) Segmentation, object category labelling, stereo</dd> 
+<dt><a href="http://vision.csd.uwo.ca/code/">Multi-label optimization</a></dt> 
+<dd>(C/C++/MATLAB code) The gco-v3.0 library is for optimizing multi-label energies. It supports energies with any combination of unary, pairwise, and label cost terms.</dd> 
+
+</dl>
+
+<h3>Optical flow</h3>
+
+<dl> 
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) Horn & Schunck algorithm, Lucas & Kanade algorithm, Lucas-Kanade optical flow in pyramids, block matching.</dd> 
+<dt><a href="http://cs.unc.edu/~cmzach/opensource.html">GPU-KLT+FLOW</a></dt> 
+<dd>(C/C++/OpenGL/Cg code, LGPL) Gain-Adaptive KLT Tracking and TV-L1 optical flow on the GPU.</dd> 
+<dt><a href="http://www.nue.tu-berlin.de/menue/forschung/projekte/rlof/">RLOF</a></dt> 
+<dd>(C/C++/Matlab code, Custom Lic.) The RLOF library provides GPU / CPU implementation of Optical Flow and Feature Tracking method.</dd> 
+</dl>
+
+<h3>Features Extraction & Matching</h3>
+
+<dl> 
+<dt><a href="http://web.engr.oregonstate.edu/~hess/">SIFT by R. Hess</a></dt> 
+<dd>(C/C++ code, GPL lic) SIFT feature extraction & RANSAC matching</dd> 
+<dt><a href="http://www.chrisevansdev.com/opensurf.html">OpenSURF</a></dt> 
+<dd>(C/C++ code) SURF feature extraction algorihtm (kind of fast SIFT)</dd>
+<dt><a href="http://www.ipol.im/pub/algo/my_affine_sift/">ASIFT</a> (from <a href="http://www.ipol.im">IPOL</a>)</dt> 
+<dd>(C/C++ code, Ecole Polytechnique and ENS Cachan for commercial Lic) Affine SIFT (ASIFT)</dd> 
+<dt><a href="http://www.vlfeat.org/">VLFeat (formely Sift++)</a></dt> 
+<dd>(C/C++ code) SIFT, MSER, k-means, hierarchical k-means, agglomerative information bottleneck, and quick shift</dd> 
+<dt><a href="http://www.cs.unc.edu/~ccwu/siftgpu/">SiftGPU</a></dt> 
+<dd>A GPU Implementation of Scale Invariant Feature Transform (SIFT)</dd> 
+<dt><a href="http://code.google.com/p/groupsac/">Groupsac</a></dt> 
+<dd>(C/C++ code, GPL lic) An enhance version of RANSAC that considers the correlation between data points</dd> 
+</dl>
+
+<h3>Nearest Neighbors matching</h3>
+
+<dl> 
+<dt><a href="http://www.cs.ubc.ca/~mariusm/index.php/FLANN/FLANN">FLANN</a></dt> 
+<dd>(C/C++ code, BSD lic) Approximate Nearest Neighbors (<a href="http://www.cs.ubc.ca/~mariusm/uploads/FLANN/flann_visapp09.pdf">Fast Approximate Nearest Neighbors with Automatic Algorithm Configuration</a>)</dd> 
+<dt><a href="http://www.cs.umd.edu/~mount/ANN/">ANN</a></dt> 
+<dd>(C/C++ code, LGPL lic) Approximate Nearest Neighbor Searching</dd> 
+</dl>
+
+<h3>Tracking</h3>
+
+<dl> 
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) Kalman, Condensation, CAMSHIFT, Mean shift, Snakes</dd> 
+<dt><a href="http://www.ces.clemson.edu/~stb/klt/">KLT: An Implementation of the Kanade-Lucas-Tomasi Feature Tracker</a></dt> 
+<dd>(C/C++ code, public domain) Kanade-Lucas-Tomasi Feature Tracker</dd> 
+<dt><a href="http://cs.unc.edu/~ssinha/Research/GPU_KLT/">GPU_KLT</a></dt> 
+<dd>(C/C++/OpenGL/Cg code, ) A GPU-based Implementation of the Kanade-Lucas-Tomasi Feature Tracker</dd> 
+<dt><a href="http://cs.unc.edu/~cmzach/opensource.html">GPU-KLT+FLOW</a></dt> 
+<dd>(C/C++/OpenGL/Cg code, LGPL) Gain-Adaptive KLT Tracking and TV-L1 optical flow on the GPU</dd> 
+<dt><a href="http://www.vision.ee.ethz.ch/boostingTrackers/">On-line boosting trackers</a></dt> 
+<dd>(C/C++, LGPL) On-line boosting tracker, semi-supervised tracker, beyond semi-supervised tracker</dd> 
+<dt><a href="https://github.com/santhosh-kumar/BlobTracking">Single Camera background subtraction tracking</a></dt> 
+<dd>(C/C++, LGPL) Background subtraction based tracking algorithm using OpenCV.</dd> 
+<dt><a href="https://github.com/santhosh-kumar/MultiCameraTracking">Multi-camera tracking</a></dt> 
+<dd>(C/C++, LGPL) Multi-camera particle filter tracking algorithm using OpenCv and intel IPP.</dd> 
+</dl>
+
+<h3>Simultaneous localization and mapping</h3>
+
+<dl> 
+<dt><a href="http://www.doc.ic.ac.uk/~ajd/software.html">Real-Time SLAM - SceneLib</a></dt> 
+<dd>(C/C++ code, LGPL lic) Real-time vision-based SLAM with a single camera</dd> 
+<dt><a href="http://www.robots.ox.ac.uk/~gk/PTAM/">PTAM</a></dt> 
+<dd>(C/C++ code,  Isis Innovation Limited lic) Parallel Tracking and Mapping for Small AR Workspaces</dd> 
+<dt><a href="https://borg.cc.gatech.edu/download">GTSAM</a></dt> 
+<dd>(C/C++ code,  BSD lic) GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices</dd> 
+</dl>
+
+<h3>Camera Calibration & constraint</h3>
+
+<dl> 
+<dt><a href="http://opencv.willowgarage.com/wiki/">OpenCV</a></dt> 
+<dd>(C/C++ code, BSD lic) Chessboard calibration, calibration with rig or pattern</dd> 
+<dt><a href="http://cmp.felk.cvut.cz/minimal/">Geometric camera constraint - Minimal Problems in Computer Vision</a></dt> 
+<dd>Minimal problems in computer vision arise when computing geometrical models from image data. They often lead to solving systems of algebraic equations.</dd> 
+<dt><a href="http://www.vision.caltech.edu/bouguetj/calib_doc/">Camera Calibration Toolbox for Matlab</a></dt>
+<dd>(Matlab toolbox) Camera Calibration Toolbox for Matlab by Jean-Yves Bouguet (C implementation in OpenCV)</dd>
+</dl>
+
+<h3>Multi-View Reconstruction</h3>
+
+<dl> 
+<dt><a href="http://www.ics.forth.gr/~lourakis/sba/">Bundle Adjustment - SBA</a></dt> 
+<dd>(C/C++ code, GPL lic) A Generic Sparse Bundle Adjustment Package Based on the Levenberg-Marquardt Algorithm</dd> 
+<dt><a href="http://www.cs.unc.edu/~cmzach/opensource.html"> Bundle Adjustment - SSBA</a></dt> 
+<dd>(C/C++ code, LGPL lic) Simple Sparse Bundle Adjustment (SSBA)</dd> 
+</dl>
+
+<h3>Stereo</h3>
+
+<dl> 
+<dt><a href="http://cms.brookes.ac.uk/staff/Karteek/code/eff_mlabel_ver1.zip">Efficiently solving multi-label MRFs</a> (<a href="http://cms.brookes.ac.uk/staff/Karteek/code/README_EFF.TXT">Readme</a>)</dt> 
+<dd>(C/C++ code) Segmentation, object category labelling, stereo</dd> 
+<dt><a href="http://cvlibs.net/libelas.html">LIBELAS: Library for Efficient LArge-scale Stereo Matching</a></dt> 
+<dd>(C/C++ code) Disparity maps, stereo</dd> 
+</dl>
+
+<h3>Structure from motion</h3>
+
+<dl> 
+<dt><a href="http://phototour.cs.washington.edu/bundler/">Bundler</a></dt> 
+<dd>(C/C++ code, GPL lic) A structure-from-motion system for unordered image collections</dd> 
+<dt><a href="http://grail.cs.washington.edu/software/pmvs/"> Patch-based Multi-view Stereo Software</a> (<a href="http://francemapping.free.fr/Portfolio/Prog3D/PMVS2.html">Windows version</a>)</dt> 
+<dd>(C/C++ code, GPL lic) A multi-view stereo software that takes a set of images and camera parameters, then reconstructs 3D structure of an object or a scene visible in the images</dd> 
+<dt><a href="http://code.google.com/p/libmv/">libmv</a> - work in progress</dt> 
+<dd>(C/C++ code, MIT lic) A structure from motion library</dd> 
+<dt><a href="http://grail.cs.washington.edu/projects/mcba/">Multicore Bundle Adjustment</a></dt> 
+<dd>(C/C++/GPU code, GPL3 lic) Design and implementation of new inexact
+Newton type Bundle Adjustment algorithms that exploit hardware
+parallelism for efficiently solving large scale 3D scene reconstruction
+problems.</dd> 
+<dt><a href="https://github.com/openMVG/openMVG">openMVG</a></dt> 
+<dd>(C/C++/GPU code, MPL2 lic) OpenMVG (Multiple View Geometry) "open Multiple View Geometry" is a library for computer-vision scientists and especially targeted to the Multiple View Geometry community. 
+It is designed to provide an easy access to the classical problem solvers in Multiple View Geometry and solve them accurately..</dd> 
+<dt><a href="http://cs.ucsb.edu/~cmsweeney/theia/">TheiaSfM</a></dt> 
+<dd>(C/C++ code, BSD lic) The goal of this library is to provide researchers with an out of the box tool for multi-view reconstruction that can be easily extended. Many common algorithms for pose, feature detection and description, matching, and reconstruction have been implemented.</dd> 
+</dl>
+
+
+</body> 
+
+</html> 
+
