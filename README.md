@@ -1,9 +1,19 @@
-# Awesome-CV-Labs
-计算机视觉领域顶级实验室信息
+# 计算机视觉领域资源汇总
+计算机视觉领域顶级实验室信息、CV工具、会议、实验室
 
-/*更新时间7/17/2019 10:53:25 AM */
+*Last updated: 2019/07/28*
 
-## 全球高校计算机视觉实验室名单（1）
+#### Update log
+* 2019/07/20* - 更新CV算资源
+* 2019/07/28* - 更新AI顶会
+
+## Table of Contents
+- [全球高校计算机视觉实验室名单](https://github.com/Sophia-11/Awesome-CV-Resources/blob/master/README.md##全球高校计算机视觉实验室名单)
+- [计算机视觉算法资源汇总](https://github.com/Sophia-11/Awesome-CV-Resources/blob/master/README.md)
+- [AI顶会（2019~2020）](https://github.com/Sophia-11/Awesome-CV-Resources/blob/master/README.md##AI顶会（2019~2020）)
+
+
+## 全球高校计算机视觉实验室名单
 
 * A. B. Kogan Research Institute for Neurocybernetics - Lab for Neural Network Modeling in Vision Research
 * ANU Biorobotic Vision group
@@ -569,4 +579,62 @@ It is designed to provide an easy access to the classical problem solvers in Mul
 </body> 
 
 </html> 
+
+
+## AI顶会（2019~2020）
+
+* CVPR 2020: IEEE Conference on Computer Vision and Pattern Recognition
+* NeurIPS 2020: Neural Information Processing Systems
+* ECCV 2020: European Conference on Computer Vision
+* ICML 2020: International Conference on Machine Learning
+* ICCV 2021: International Conference on Computer Vision
+* WWW 2020: International World Wide Web Conferences
+* SIGKDD 2019: ACM SIGKDD International Conference on Knowledge discovery and data mining
+* ICRA 2020: International Conference on Robotics and Automation
+* ACL 2020: Annual Meeting of the Association for Computational Linguistics
+* ICASSP 2020: International Conference on Acoustics, Speech and Signal Processing
+* EMNLP 2019: Conference on Empirical Methods in Natural Language Processing
+* AAAI 2020: Association for the Advancement of Artificial Intelligence
+* SIGIR 2020: International ACM SIGIR Conference on Research and Development in Information Retrieval
+* IROS 2020: International Conference on Intelligent Robots and Systems
+* NAACL 2019: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+* IJCAI 2020: International Joint Conference on Artificial Intelligence
+* ACMMM 2019: ACM Multimedia
+* CIKM 2020: ACM International Conference on Information and Knowledge Management
+* BMVC 2019: British Machine Vision Conference
+* AAMAS 2020: International Conference on Autonomous Agents and Multi agent Systems
+* RSS 2020: Robotics - Science and Systems
+* ICDM 2019: International Conference on Data Mining
+* COLING 2020: International Conference on Computational Linguistics
+* ACCV 2020: Asian Conference on Computer Vision
+* ICIP 2020: International Conference on Image Processing
+* ICPR 2020: International Conference on Pattern Recognition
+* COLT 2019: Conference on Learning Theory
+* UAI 2019: Conference on Uncertainty in Artificial Intelligence
+* ECMLPKDD 2020: European Conference on Machine learning and knowledge discovery in databases
+* WACV 2020: Winter Conference on Applications of Computer Vision
+* IJCNN 2020: International Joint Conference on Neural Networks
+* AISTATS 2019: International Conference on Artificial Intelligence and Statistics
+* ICMR 2020: ACM International Conference on Multimedia Retrieval
+* ECAI 2020: European Conference on Artificial Intelligence
+* ICAPS 2020: International Conference on Automated Planning and Scheduling
+* KR 2020: International Conference on Principles of Knowledge Representation and Reasoning
+* ICME 2019: International Conference on Multimedia and Expo
+* PAKDD 2020: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+* Co NLL 2019: Conference on Computational Natural Language Learning
+* CIG 2019: IEEE Conference on Computational Intelligence and Games
+* ICMLA 2019: International Conference On Machine Learning And Applications
+* ICONIP 2019: International Conference on Neural Information Processing
+* ICTAI 2019: International Conference on Tools with Artificial Intelligence
+* ICANN 2019: International Conference on Artificial Neural Networks
+* ALT 2020: International Conference on Algorithmic Learning Theory
+* ICAART 2020: International Conference on Agents and Artificial Intelligence
+* ICIAP 2019: International Conference on Image Analysis and Processing
+* SIGGRAPH 2019: Computer Graphics and Interactive Techniques
+* ICLR 2020: International Conference on Learning Representations
+* Co RL 2019: Conference on Robot Learning
+* ICCBR 2020: International Conference on Case-Based Reasoning
+* PRICAI 2019: Pacific Rim International Conference on Artificial Intelligence
+* ACML 2019: Asian Conference on Machine Learning
+* GECCO 2019: Genetic and Evolutionary Computation Conference
 
